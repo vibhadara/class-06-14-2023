@@ -1,0 +1,22 @@
+---
+title: "Babynames"
+author: "Vibha Dara"
+format: html
+execute: 
+  echo: false
+  messaging: false
+  warning: false
+---
+
+```{r}
+library(tidyverse)
+```
+
+```{r}
+x <- read_csv("data/i_names.csv", show_col_types = FALSE)
+```
+
+```{r}
+summary(x)
+```
+
